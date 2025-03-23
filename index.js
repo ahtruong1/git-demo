@@ -8,5 +8,7 @@ console.log("B: ", b);
 
 function swap()
 {
-    // TODO: Implement
+    let temp = a;
+    a = b;
+    b = temp;
 }
